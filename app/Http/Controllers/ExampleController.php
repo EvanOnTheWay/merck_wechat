@@ -9,7 +9,7 @@ class ExampleController extends Controller
 {
     public function index()
     {
-        $member = DB::select('SELECT * FROM Member');
+        $member = DB::select('SELECT * FROM snii_usr_Employee');
 
         dd($member);
     }
